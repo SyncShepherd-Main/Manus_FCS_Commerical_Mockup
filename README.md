@@ -320,7 +320,7 @@ Implement structured data for enhanced search visibility:
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "FCS Foundation & Concrete Repair",
-  "telephone": "469-402-1038",
+  "telephone": "[PHONE_NUMBER]",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Dallas",
@@ -457,66 +457,12 @@ Contributions are welcome! Please follow these guidelines:
 
 ---
 
-## 📞 Contact & Support
-
-**FCS Foundation & Concrete Repair**
-- **Phone:** 469-402-1038
-- **Website:** https://fcsfoundationandconcrete.com
-- **Service Area:** Dallas-Fort Worth Metroplex
-
-**Repository**
-- **GitHub:** [SyncShepherd-Main/Manus_FCS_Commerical_Mockup](https://github.com/SyncShepherd-Main/Manus_FCS_Commerical_Mockup)
-
----
-
 ## 📝 License
 
 Proprietary - © 2026 FCS Foundation Repair and Concrete Services
 
-All rights reserved. This code is proprietary and confidential.
+All rights reserved. This code is proprietary and confidential. For internal use only.
 
 ---
-
-## 🙏 Acknowledgments
-
-- **FCS Foundation & Concrete Repair** for company information and branding
-- **React Team** for the amazing framework
-- **Tailwind CSS** for the utility-first CSS framework
-- **shadcn/ui** for beautiful, accessible components
-
----
-
-## 📈 Project Statistics
-
-- **Total Pages:** 9 (1 hub + 8 property types)
-- **Total Word Count:** 17,605+ words
-- **Average Page Length:** 1,956 words
-- **Case Studies:** 8 property-specific examples
-- **Testimonials:** 3 real client testimonials
-- **Internal Links:** Full cross-linking structure
-- **Trust Signals:** BBB A+, 25+ years, 295+ reviews, lifetime warranty
-
----
-
-## 🎯 Next Steps
-
-### Priority 1: Add Before/After Photos
-Upload actual FCS project photos to replace placeholder images in case studies.
-
-### Priority 2: Implement Schema Markup
-Add LocalBusiness and Service schema to all pages for enhanced search visibility.
-
-### Priority 3: Create Working Contact Forms
-Build commercial inquiry forms with property type dropdown and CRM integration.
-
-### Priority 4: WordPress Migration
-Convert React components to WordPress templates for easy content management.
-
-### Priority 5: Performance Optimization
-Optimize images, implement caching, and monitor Core Web Vitals.
-
----
-
-**Built with ❤️ for FCS Foundation & Concrete Repair**
 
 *Last Updated: February 2026*
