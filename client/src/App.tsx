@@ -1,10 +1,12 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { Route, Router, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+
+const base = import.meta.env.PROD ? "/Manus_FCS_Commerical_Mockup" : "";
 import CommercialFoundationRepairHub from "./pages/CommercialFoundationRepairHub";
 import WarehouseFoundationRepair from "./pages/WarehouseFoundationRepair";
 import RetailFoundationRepair from "./pages/RetailFoundationRepair";
@@ -15,9 +17,10 @@ import RestaurantFoundationRepair from "./pages/RestaurantFoundationRepair";
 import IndustrialFoundationRepair from "./pages/IndustrialFoundationRepair";
 import HealthcareFoundationRepair from "./pages/HealthcareFoundationRepair";
 
-function Router() {
+function AppRouter() {
   return (
-    <Switch>
+    <Router base={base}>
+      <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/commercial-foundation-repair"} component={CommercialFoundationRepairHub} />
       <Route path={"/commercial/warehouse-foundation-repair"} component={WarehouseFoundationRepair} />
@@ -31,6 +34,7 @@ function Router() {
       <Route path={"/404"} component={NotFound} />
       <Route component={NotFound} />
     </Switch>
+    </Router>
   );
 }
 
@@ -40,7 +44,7 @@ function App() {
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          <Router />
+          <AppRouter />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
