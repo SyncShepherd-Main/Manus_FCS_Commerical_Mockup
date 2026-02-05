@@ -6,7 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
-const base = import.meta.env.PROD ? "/Manus_FCS_Commerical_Mockup/" : "";
+const base = import.meta.env.PROD ? "/Manus_FCS_Commerical_Mockup" : "";
 import CommercialFoundationRepairHub from "./pages/CommercialFoundationRepairHub";
 import WarehouseFoundationRepair from "./pages/WarehouseFoundationRepair";
 import RetailFoundationRepair from "./pages/RetailFoundationRepair";
